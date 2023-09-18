@@ -1,0 +1,38 @@
+.App {
+  margin: 10px;
+}
+
+body {
+  background-color: #151d2f;
+}
+
+.searchDiv {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1em;
+  width: 100%;
+  max-width: 50em;
+  margin: 1em auto;
+  padding: 0.5em;
+}
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+}
+.searchDiv input{
+  padding: 1em;
+    border-radius: 0.5em;
+    font-weight: 400;
+}
+
+.imageList{
+  columns:250px 5;
+  column-gap:10px;
+
+}
+
+.imageListImg{
+  width: 100%;
+  margin-bottom:10px;
+  margin-top: 10px;
+}
